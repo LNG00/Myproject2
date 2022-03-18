@@ -12,9 +12,9 @@ public class GraduateStudent extends Student {
             super(name);
 
     }
+    @Override
     public void print(){
-        int ave = (Chinese+English)/2;
-        System.out.println(name + "\t" + Chinese + "\t" + English + "\t"
-                + ave +thesis);
+       System.out.println(name + "\t" + Chinese + "\t" + English + "\t"
+                + getave() + "\t" + thesis);
     }
 }
