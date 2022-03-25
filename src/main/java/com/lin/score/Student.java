@@ -1,4 +1,4 @@
-package com.lin;
+package com.lin.score;
 
 
 public class Student {

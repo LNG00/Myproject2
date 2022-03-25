@@ -1,6 +1,8 @@
-package com.lin;
+package com.lin.sales;
 
-public class silercustomer extends Customer{
+import com.lin.sales.Customer;
+
+public class silercustomer extends Customer {
     int returnMoney;
     public silercustomer(String good, int amount){
         super(good, amount);

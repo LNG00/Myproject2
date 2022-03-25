@@ -1,4 +1,7 @@
-package com.lin;
+package com.lin.sales;
+
+import com.lin.sales.Customer;
+import com.lin.sales.silercustomer;
 
 public class Salestester {
     public static void main(String[] args) {
