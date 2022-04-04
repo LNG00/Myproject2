@@ -1,4 +1,4 @@
-package com.lin.highspeed;
+package com.lin.ticket;
 
 import java.util.Scanner;
 

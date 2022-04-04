@@ -1,6 +1,4 @@
-package com.lin.highspeed;
-
-import com.lin.highspeed.StudentTicket;
+package com.lin.ticket;
 
 public class ElderTicket extends StudentTicket {
     public ElderTicket(Station start, Station end) {

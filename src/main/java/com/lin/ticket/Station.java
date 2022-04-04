@@ -1,4 +1,4 @@
-package com.lin.highspeed;
+package com.lin.ticket;
 
 public class Station {
     public static final Station TAIPEI_CITY = new Station("Taipei",100);

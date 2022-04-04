@@ -1,4 +1,4 @@
-package com.lin.highspeed;
+package com.lin.ticket;
 
 public class Ticket {
     public static int TAIPEI_CITY = 100;
