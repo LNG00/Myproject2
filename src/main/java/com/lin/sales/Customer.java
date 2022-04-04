@@ -2,14 +2,13 @@ package com.lin.sales;
 
 public class Customer {
     String id;
-    int customer ;
-    //int silvercustomer;
-    //int goldencustomer;
     int amount;
     int discount;
     int openpoint;
+
     float off1 = 0.1f;
     float off2 = 0.3f;
+
     public Customer(String id,int amount){
         this.id = id;
         this.amount = amount;
