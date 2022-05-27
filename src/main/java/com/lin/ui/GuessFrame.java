@@ -9,7 +9,7 @@ public class GuessFrame extends JFrame {
     public  GuessFrame(){
         super();
         setSize(600,400);
-        setLocation(300,200);
+        setLocation(300,150);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         JButton button = new JButton("Who's The Champion!!!");
         JLabel label= new JLabel("wwwwwww");
