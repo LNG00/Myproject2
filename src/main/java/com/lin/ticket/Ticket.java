@@ -12,6 +12,7 @@ public class Ticket {
     Station end;
     float off1 = 0.5f;
 
+
     public Ticket(Station start, Station end) {
         this.start = start;
         this.end = end;

@@ -1,7 +1,7 @@
 package com.lin.score;
 
 
-public class Student {
+public class Student implements Printable{
     String name;
     int Chinese;
     int English;
@@ -16,6 +16,7 @@ public class Student {
         this.English = English;
     }
 
+    @Override
     public void print (){
         System.out.print(name + "\t" + Chinese + "\t" + English + "\t" + getave());
             if (getave() < 60) {
